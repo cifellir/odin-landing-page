@@ -1,3 +1,6 @@
+{
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: "Work Sans", sans-serif;
@@ -8,14 +11,15 @@ body {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .logo {
-    width: 75px;
+    width: 100px;
     height: auto;
 }
+
 ul {
     list-style-type: none;
 }
@@ -27,4 +31,17 @@ a {
 
 header {
     background-color: #358b0de5;
+}
+
+.nav {
+    display: flex;
+    gap: 8px;
+    justify-content: space-between;
+    
+}
+
+.nav li{
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 16px;
 }
