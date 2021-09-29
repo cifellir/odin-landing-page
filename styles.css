@@ -44,6 +44,7 @@ header {
     display: inline-block;
     margin-left: 12px;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .display {
@@ -63,6 +64,15 @@ header {
     align-items: center;
     width: 300px;
     padding: 12px;
+}
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+.blurb {
+    color: rgba(0, 0, 0, 0.842);
+    margin: 8px;
+    text-align: center;
 }
 
 button {
