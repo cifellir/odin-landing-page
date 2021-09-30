@@ -101,7 +101,7 @@ h2 {
 }
 
 .thumbnail {
-    width: 200px;
+    width: 20vw;
     height: auto;
 }
 
@@ -109,13 +109,14 @@ h2 {
     display: flex;
     flex: 2;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 12px;
 }
 .photo {
     display: flex;
+    flex: 2;
     flex-direction: column;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .caption {
