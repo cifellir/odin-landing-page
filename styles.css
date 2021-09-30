@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 8px;
 }
 
 .logo {
@@ -48,8 +49,10 @@ header {
 }
 
 .display {
-    width: 300px;
+    width: 400px;
     height: auto;
+    border-style: inset;
+    border-color:rgb(61, 20, 1)
 }
 
 .hero {
@@ -89,4 +92,35 @@ button {
 }
 button:hover {
     background-color:rgba(61, 20, 1, 0.637)
+}
+
+h2 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 8px;
+}
+
+.thumbnail {
+    width: 200px;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.caption {
+    font-style: italic;
+    align-self: center;
+    margin-top: 6px;
+    
 }
