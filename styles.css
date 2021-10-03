@@ -125,3 +125,31 @@ h2 {
     margin-top: 6px;
     
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 35vw;
+    padding-right: 35vw;
+    
+}
+
+quote {
+    align-self: center;
+    background-color: #358b0d85;
+}
+
+.nice {
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.788);
+    margin-bottom: 8px;
+}
+.author {
+    font-weight: 900;
+    margin-top: 8px;
+}
